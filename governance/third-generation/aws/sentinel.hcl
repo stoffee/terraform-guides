@@ -119,10 +119,10 @@ policy "restrict-sagemaker-notebooks" {
   enforcement_level = "advisory"
 }
 
-policy "restrict-subnet-of-ec2-instances" {
-  source = "./restrict-subnet-of-ec2-instancess.sentinel"
-  enforcement_level = "advisory"
-}
+#policy "restrict-subnet-of-ec2-instances" {
+#  source = "./restrict-subnet-of-ec2-instancess.sentinel"
+#  enforcement_level = "advisory"
+#}
 
 policy "validate-providers-from-desired-regions" {
   source = "./validate-providers-from-desired-regions.sentinel"
